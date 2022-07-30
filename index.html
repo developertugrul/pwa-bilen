@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<!-- Promise ve Fetch js dosyaları Fetch API ve Promise callback desteklemeyen
+browserlarda pwa özelliğini aktif etmek için kullanıyoruz -->
+
+<!-- Manifest Json dosyası içinde yer alan ID parametresi PWA kurulmak istenen domain ile eşleşmesi gerekiyor
+ örnegin https://bilenim.com ya da https://customdomain.bilenium.com -->
+
+<!-- Shortcuts da yer alan url ler güncellenmelidir - açılış sayfası pwa ikonuna ilk tıklandığında
+ açılacak olan sayfa. Bunların da güncellenmesi gerekiyor. -->
+
+<!-- Manifest.json da yer alan ikonlardan bir tanesine "purpose":"maskable" değeri atanmalıdır -->
+
+<!-- serviceworker.js mutlaka root dizinde olmalıdır ! -->
+<script src="js/promise.js"></script>
+<script src="js/fetch.js"></script>
+<script src="js/pwa.js"></script>
+
+</body>
+</html>
